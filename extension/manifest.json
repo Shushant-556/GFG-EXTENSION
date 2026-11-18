@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "GFG AutoSolver Pro",
+  "version": "2.0.0",
+  "description": "Capture GFG coding problems, generate Java solutions, and commit them to GitHub via your private backend.",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "scripting"
+  ],
+  "host_permissions": [
+    "http://127.0.0.1:8787/*",
+    "http://localhost:8787/*",
+    "https://*/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "options_page": "options.html"
+}
